@@ -43,7 +43,7 @@ Composer: https://getcomposer.org/download/
   > Open "C:\WINDOWS\system32\drivers\etc\hosts" and add at the bottom of the file the 
   line below:
   
-  > `127.0.0.1       laravel.dev`
+  `127.0.0.1       laravel.dev`
   
   > * Under Vindows 7 and later, your text editor must be run as administrator before opening
   the hosts file.
@@ -51,7 +51,7 @@ Composer: https://getcomposer.org/download/
   Laravel configuration:
   
   * This project just replaces some of the files of a standard Laravel project so you first 
-  need to create one: *
+  need to create one:
   
   > With 'Command Prompt' navigate to where you want to install to, so "xampp\htdocs\", and write 
   the following command:
@@ -75,7 +75,7 @@ Composer: https://getcomposer.org/download/
   `create schema [database_name]`
   
   > for me it's `create schema usr_db`. Now open the ".env" file in the root folder of your 
-  Laravel project. For me it's `":\xampp\htdocs\laravel_h_w\` and modify lines 5 to 8 like below:
+  Laravel project. For me it's `\xampp\htdocs\laravel_h_w\` and modify lines 5 to 8 like below:
   ```
     DB_HOST=localhost
     DB_DATABASE=usr_db ( your database name here )
